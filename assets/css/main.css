@@ -2449,8 +2449,9 @@
 /* Header */
 
 	#header {
-		background: #4acaa8;
-		color: #d1f1e9;
+        background-image: url("../../images/banner3.jpg");
+        background-size: cover;
+		color: #2c2c2c;
 		height: 100%;
 		position: fixed;
 		text-align: center;
@@ -2460,23 +2461,23 @@
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #2c2c2c;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #2c2c2c;
 			}
 
 		#header header p {
-			color: #b6e9dc;
+			color: #2c2c2c;
 		}
 
 		#header a {
-			color: #d1f1e9;
+			color: #2c2c2c;
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #2c2c2c !important;
 			}
 
 		#header > header {
@@ -2495,7 +2496,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: #2c2c2c;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2513,7 +2514,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc;
+					color: #2c2c2c;
 				}
 
 		#header > nav ul {
@@ -2534,7 +2535,7 @@
 					-ms-transition: none;
 					transition: none;
 					border: 0;
-					color: #ffffff !important;
+					color: #2c2c2c !important;
 					display: block;
 					padding: 0.85em 0;
 					text-decoration: none;
@@ -2542,7 +2543,7 @@
 
 					#header > nav ul li a.active {
 						background: #fff;
-						color: #4acaa8 !important;
+						color: #2c2c2c !important;
 					}
 
 				#header > nav ul li:first-child {
@@ -2587,6 +2588,8 @@
 
 	#footer {
 		background: #fafafa;
+        background-image: url("../../images/banner2.jpg");
+        background-size: cover;
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
