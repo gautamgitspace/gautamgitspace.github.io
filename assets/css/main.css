@@ -13,7 +13,7 @@
 		margin: 0;
 		padding: 0;
 		border: 0;
-		font-size: 100%;
+		font-size: 50%;
 		font: inherit;
 		vertical-align: baseline;
 	}
@@ -1557,7 +1557,7 @@
 	body, input, select, textarea {
 		color: #888;
 		font-family: "Lato", sans-serif;
-		font-size: 16pt;
+		font-size: 12pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -1604,32 +1604,32 @@
 		}
 
 	h2 {
-		font-size: 2em;
-		line-height: 1.5em;
-	}
-
-	h3 {
-		font-size: 1.75em;
-		line-height: 1.5em;
-	}
-
-	h4 {
 		font-size: 1.25em;
 		line-height: 1.5em;
 	}
 
-	h5 {
+	h3 {
+		font-size: 1.00em;
+		line-height: 1.5em;
+	}
+
+	h4 {
 		font-size: 0.9em;
 		line-height: 1.5em;
 	}
 
+	h5 {
+		font-size: 0.8em;
+		line-height: 1.5em;
+	}
+
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.6em;
 		line-height: 1.5em;
 	}
 
 	sub {
-		font-size: 0.8em;
+		font-size: 0.6em;
 		position: relative;
 		top: 0.5em;
 	}
@@ -2627,7 +2627,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 9pt;
 			}
 
 		/* Header */
@@ -2697,7 +2697,7 @@
 			}
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 9pt;
 			}
 
 		/* Image */
@@ -2861,7 +2861,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 9pt;
 			}
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
