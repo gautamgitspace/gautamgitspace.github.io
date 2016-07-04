@@ -41,7 +41,7 @@
 						images: {
 							'images/chd.jpg': 'center',
 							'images/jetpack.jpg': 'center',
-							'images/empire.jpg': 'center'
+							'images/nyc.jpg': 'center'
 						},
 
 					// Delay.
