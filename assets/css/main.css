@@ -2425,7 +2425,7 @@
 		}
 
 		.features article .image {
-			display: inline-block;
+			display: inline-grid;
 			padding-right: 2.5em;
 			vertical-align: middle;
 			width: 48%;
