@@ -50,7 +50,7 @@
 								streams and using a variety of languages. You can even update your data structure without breaking deployed
 								programs that are compiled against the "old" format.</br>
 
-								Looks like this was the solution you were waiting for? Let's see how to get this running. First of all, you would need to right your .proto files.
+								Looks like this was the solution you were looking for? Let's see how to get this running. First of all, you would need to right your .proto files.
 								These files would contain protocol buffer messages which is nothing more than a record of information and contains name-value pairs.
 								A very basic example of a .proto file could be:</br>
 
@@ -72,7 +72,7 @@
   								repeated PhoneNumber phone = 4;</br>
 								}</br></p>
 
-								<p>Once you've defined your messages, you run the protocol buffer compiler for your application's language on your .proto file to generate data access classes.
+								<p>For more on how to write your .proto files, refer <a href="https://developers.google.com/protocol-buffers/docs/proto">Google's documentation</a>. Once you've defined your messages, you run the protocol buffer compiler for your application's language on your .proto file to generate data access classes.
 									The prtocol compiler(protoc) is written in C++. So you need to build the binary before the compiler can compile .proto files for you. For all my control freak friends
 									who are C++ users, follow these steps:</p>
 
@@ -80,7 +80,7 @@
 								<h4>Step 2.</h4>From the source you get from GitHub, execute <i>$ ./autogen.sh</i> to generate the configure script.</br>
 								<h4>Step 3.</h4>Now this won't be something that runs like a charm. Since Macintosh System does not have Unix tools available by default, you'd need to do some tinkering. I am
 							assuming that you have Xcode installed pre-hand. If yes, then run this command <i>$ sudo xcode-select –install</i>. If not, go to App Store. Now!</br>
-						If code is your religion, there are good chances these compenents are already present in your Mac and you might encounter only 2 errors while executing ./autogen.sh (as I did).</br>
+						If writing code is a part of your daily routine, there are good chances these compenents are already present in your Mac and you might encounter only 2 errors while executing ./autogen.sh (as I did).</br>
 						These are due to the absence of:
 					</br><h5>1. autoconf:</h5>
 				./autogen.sh: line 38: autoreconf: command not found
