@@ -25,7 +25,7 @@
 				<nav id="nav">
 					<ul>
 												<li><a href="#one" class="active">Howdy</a></li>
-                        <li><a href="#two">Journey</a></li>
+                        <li><a href="#two">Alma Mater</a></li>
 												<li><a href="#three">A Few Accomplishments</a></li>
                         <li><a href="#four">Dexterity</a></li>
 												<li><a href="#five">Contact</a></li>
@@ -57,10 +57,9 @@
 									<header class="major">
                                         <h2>Howdy!</h2>
 									</header>
-									<p>I am a Computer Science Graduate Student at the State University of New York at Buffalo. Reliable Networked Systems and Computer Networking interest me. Being a technology enthusiast, I yearn for software development that leads to designs for efficient systems and govern the way they communicate.</br>
-                                    </br>
-
-                                    A true wanderer from the land of the Himalayas, I like spending time with mountains and water bodies. I do decent photography, serving the needs of my shutter at least once in a day. I play and watch basketball in free time. Currently exploring United States.</p>
+									<p>I'm a Computer Science Graduate Student. I am fond of Distributed Networked Systems, SDN and zero-touch network automation measures. The way such systems interact and synchronize themselves to achieve a common task, interests me the most. </br>
+									</br>A true wanderer from the land of the Himalayas, I like spending time with mountains and water bodies. I do decent photography, serving the needs of my shutter at least once in a day. I play and watch basketball in free time. Currently exploring United States.</br>
+								</p>
 								</div>
 							</section>
 
@@ -68,22 +67,25 @@
                             <section id="two">
                                 <div class="container">
                                     <header class="major">
-                                        <h3>Journey</h3>
+                                        <h3>Alma Mater</h3>
                                     </header>
-                                    <p>How did I make it this far.</p>
                                     <div class="features">
 										<article>
 											<a href="http://www.cse.buffalo.edu" class="image"><img src="images/UB.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Master of Science, Computer Science and Engineering</h4>
+												<h3>Master of Science, Computer Science and Engineering</h3>
                                                 <h5>2015-2017</h5>
-                                                <h5>Major Concentration – Distributed and Networked Systems</br>
+                                                <h5>
+																								Major Concentration – Distributed and Networked Systems</br>
                                                 Graduate Certificate - Information Assurance
-                                                </h5>
-												<p></p>
+                              									</h5>
+																							</br></br>
+												<p>Currently, I am working as a Graduate Researcher at the Wireless Networking and Systems Lab at University at Buffalo and working towards:</br>
+													1. Re-setting up a testbed related to SDN/VPN based research project in collaboration with AT&T Labs </br>
+													2. Analyzing Crowd Sourced Cellular Network Performance using Full-Stack application development in Android(Java) and Python.</p>
 											</div>
 										</article>
-                                    <article>
+                                    <!-- <article>
                                     <div class="container">
 
 									<ul class="feature-icons">
@@ -108,7 +110,7 @@ debugging the controller (in C and Python) and data path of OVS.
                                         </li>
 									</ul>
 								    </div>
-                                    </article>
+                                    </article> -->
 
 									</div>
                                 </div>
@@ -123,114 +125,119 @@ debugging the controller (in C and Python) and data path of OVS.
 											<a href="https://github.com/gautamgitspace/CellularNetworkMonitor" class="image"><img src="images/celnetmon.jpg" alt="" /></a>
 											<div class="inner">
 												<h2>Cellular Network Monitor</h2>
-                                                <h5>Java, Google Protocol Buffers, Cellular Networks, Android, Python, Django, SQLite</h5>
-												<p>Designed and developed an Android application in Java and a web server in Django, that help in Cellular Network Performance Analysis. The application is being used in an on-going research project at UB Wireless Networks and Systems Lab and is capable of:<br><br>
-													1. Provisions registering your device to a Django based web server followed by periodic uploading of the serialized data using Google Protocol Buffers and provisions viewing analysis reports on your device in the form of CSV files.<br>
-													2. Tracking your geographical location using wireless and cellular networks thus optimizing battery performance. Monitoring other
-													cellular network parameters such as RSSI, network type, network state, data activity and data state as you move around. </p>
+                                                <h5>[Java, Google Protocol Buffers, Cellular Networks, Android, Python, Django, MongoDB, SQLite]</h5>
+												<p>Designed and developed an Android application in Java and a web server in Django, that help in Cellular Network Performance Analysis. The application is being used in an on-going research project at UB Wireless Networks and Systems Lab and tracks
+													certain cellular parameters at different geographical areas as the person moves around. <br></br>
+													This data is sent over the network using Google Protocol Buffers, stored and analysed on the server and sent back to the user upon his request in the form of statistical UI.  <br><br>
+												</p>
 											</div>
 										</article>
 										<article>
 											<a href="https://github.com/gautamgitspace/Software-Defined-Routing" class="image"><img src="images/sdn.jpg" alt="" /></a>
 											<div class="inner">
 												<h2>Software Defined Routing and DVRP Implementation</h2>
-													<h5>C, C++, Python, TCP/UDP Socket Programming, UNIX</h5>
-													<p>Implemented a simplified version of a router which performs Control Plane & Data Plane functionalities and performs routing updates in a Distance Vector Routing fashion. This model works on top of Computer Science Dept. servers (acting as routers) at the University at Buffalo and hence performed routing and two-way file sharing, for all possible network topologies.<br><br>
+													<h5>[C, C++, Python, TCP/UDP Socket Programming, GNU]</h5>
+													<p>Implemented a simplified version of a router which performs Control Plane & Data Plane functionalities and performs routing updates in a Distance Vector Routing fashion.<br><br>
 														1. The Controller (scripted in Python) reads a text based topology file and sends control codes and policies to the router on an open port<br>
 														2. The Router (written in C/C++) handles these control codes, builds routing tables and performs Data Plane functionalities.</p>
 													</div>
 												</article>
-										<article>
-											<article>
-												<a href="#" class="image"><img src="images/gitsharing.jpg" alt="" /></a>
-												<div class="inner">
-														<h2>L3 High Availability Data Center Model</h2>
-															<h5>Cisco NX2k, NX5k, NX7k, FabricPath, vPCs, FEX, LACP, FHRPs</h5>
-															<p>Designed a highly redundant Data Center design capable of load balancing using ECMP on Cisco Nexus Platforms:<br><br>
-																1. Configured Spine, Fabric and Classical Ethernet domains using NX2k as TOR and NX5k as EOR and NX7k as Spine Switches.<br>
-																2. Configured FabricPath between Spine and Edge, vPC domains (NX7Ks and NX5Ks), FEX between NX5K and NX2K and Downstream<br>
-																3. Control Plane and Data Plane verification and analysis by capturing packets.</p>
-															</div>
+												<article>
+													<a href="https://github.com/gautamgitspace/Amazon-Dynamo" class="image"><img src="images/amzdynamodb.jpg" alt="" /></a>
+													<div class="inner">
+														<h2>Amazon DynamoDB Replica</h2>
+		                                                <h6>[Android, Java, Socket Programming, SQLite, DynamoDB]</h6>
+														<p>Implemented a simplified version of Amazon DynamoDB in Java, using 5 Android Phones acting as stroage nodes. The design mimics the
+															highly available and scalable distributed data store built for Amazon’s platform.<br><br>
+															1. Partitioning & Replication –Consistent Hashing to distribute load across multiple hosts and Chain Replication with a degree of 2<br>
+															2. Node Failures - Consistent retrieval in case of node failures<br>
+															3. Replica Synchronization and Conflict Detection and Resolution - Object versioning using Mutex and Semaphores</p>
+													</div>
+												</article>
+												<article>
+													<a href="#" class="image"><img src="images/cloud.jpg" alt="" /></a>
+													<div class="inner">
+															<h2>CE to CE MPLS L3 VPNs and LDP Packet Analysis</h2>
+																<h5>[MPLS, MBGP, OSPF, Cisco ISR 2800, 2900, GNS3, Cisco EPC]</h5>
+																<p>Analysis of MPLS packets by configuring MPLS on Cisco ISR platforms and capturing packets using Cisco Embedded Packet Capture<br><br>
+																	1. Simulated network environment consisting of Cisco ISR routers and configured MPLS L3 VPNs between two customer sites.<br>
+																	2. PE to PE routing using MBGP, CE to PE routing using OSPF, Route redistribution between VRF on PE and CE.<br>
+																	3. Control Plane and Data Plane verification by capturing packets (using Cisco EPC) and analysis of Transit labels and VPN labels.</p>
+																</div>
+															</article>
+
+															<article>
+																<a href="#" class="image"><img src="images/inspectocat.jpg" alt="" /></a>
+																<div class="inner">
+																	<h2>ExactAgent - The Mainframe Screen Scraping Application</h2>
+																	<h6>[Cobol, VB.Net, SQL, Shell, Python]</h6>
+																	<p>Developed and shaped a Mainframe screen scraping application in VB .NET for AT&T's Wholesale Ordering and Billing Solutions. The application assisted in creating service orders for requests coming into the FLSC (Facilities Local Service Center) via an ASR (Access Service Request) by scraping data from The Mainframe screens at different coordinates.
+															</article>
+
+															<article>
+																<a href="https://github.com/gautamgitspace/Post-Quantum-Security-Algorithms/blob/master/PostQuantumPrimitives.pdf" class="image"><img src="images/crypto.jpg" alt="" /></a>
+																<div class="inner">
+																	<h2>Post-Quantum Primitives for Constrained Devices</h2>
+																			<h6>[Python, C, C++, Raspberry Pi]</h6>
+																			<p>Performed a comparative study of Lattice-based cryptographic algorithms and evaluated their performance by testing them on constrained device environment (Raspberry Pi B+). Programmed the following algorithms in Python and C: LP, U-LP, BLISS and NTRU.
+															</article>
+
+															<article>
+																<a href="https://github.com/gautamgitspace/Reliable-Data-Transfer-Protocol-" class="image"><img src="images/tcp.jpg" alt="" /></a>
+																<div class="inner">
+																	<h2>Reliable Transport Protocol </h2>
+																			<h6>[C, C++, GNU]</h6>
+																			<p>Programmed a protocol at L4 of OSI for reliable delivery. The protocol picks the best features from Go-Back-N and Selective Repeat protocols, an efficient multiple-timer strategy and a comparison of the 3 protocols in terms of packet delivery, loss and corruption.</p>
+																</div>
+																</article>
+
+																<article>
+																	<a href="https://github.com/gautamgitspace/Distributed-Message-and-File-Sharing-System" class="image"><img src="images/distributed.jpg" alt="" /></a>
+																	<div class="inner">
+																		<h2>Distributed Message and File Sharing System</h2>
+																				<h6>[C, C++, UNIX Network Programming, GNU]</h6>
+																				<p>Designed a shell-based Multi-Client Chat Application and File Sharing System in C++, under GNU environment. The application works on top of the CS Department servers at the University at Buffalo. This application implements both Client-Server and P2P model and provides functionalities like: Client login logout and active tracking, message storage and delivery guarantee and blocking client access.</p>
+																	</div>
+																</article>
+
+																<article>
+																	<a href="https://github.com/gautamgitspace/Distributed-Hash-Table" class="image"><img src="images/dht.jpg" alt="" /></a>
+																	<div class="inner">
+																		<h2>Distributed Hash Table</h2>
+		                                                <h6>[Android, Java, Socket Programming, SQLite, Chord DHT]</h6>
+																										<p>A simple DHT based on the Chord algorithm in Java, using 5 Android Phones acting as nodes. The model is an efficient Distributed Data Storage system that offers fast lookup times and is capable of handling ID space portioning/re-partitioning, Ring based routing and joining of new nodes to the networked system.</p>
+																	</div>
+																</article>
+
+															<article>
+																<a href="#" class="image"><img src="images/gitsharing.jpg" alt="" /></a>
+																<div class="inner">
+																	<h2>L3 High Availability Data Center Model</h2>
+																	<h5>[Cisco NX2k, NX5k, NX7k, FabricPath, vPCs, FEX, LACP, FHRPs]</h5>
+																	<p>Designed a highly redundant Data Center design capable of load balancing using ECMP on Cisco Nexus Platforms:<br><br>
+																		1. Configured Spine, Fabric and Classical Ethernet domains using NX2k as TOR and NX5k as EOR and NX7k as Spine Switches.<br>
+																		2. Configured FabricPath between Spine and Edge, vPC domains (NX7Ks and NX5Ks), FEX between NX5K and NX2K and Downstream<br>
+																		3. Control Plane and Data Plane verification and analysis by capturing packets.</p>
+																</div>
 														</article>
 
-											<article>
-												<a href="#" class="image"><img src="images/cloud.jpg" alt="" /></a>
-												<div class="inner">
-														<h2>CE to CE MPLS L3 VPNs and LDP Packet Analysis</h2>
-															<h5>MPLS, MBGP, OSPF, Cisco ISR 2800, 2900, GNS3, Cisco EPC</h5>
-															<p>Analysis of MPLS packets by configuring MPLS on Cisco ISR platforms and capturing packets using Cisco Embedded Packet Capture<br><br>
-																1. Simulated network environment consisting of Cisco ISR routers and configured MPLS L3 VPNs between two customer sites.<br>
-																2. PE to PE routing using MBGP, CE to PE routing using OSPF, Route redistribution between VRF on PE and CE.<br>
-																3. Control Plane and Data Plane verification by capturing packets (using Cisco EPC) and analysis of Transit labels and VPN labels.</p>
-															</div>
-														</article>
 														<article>
-					<a href="#" class="image"><img src="images/bgptraffic.jpg" alt="" /></a>
-					<div class="inner">
-						<h2>BGP Traffic Behavior</h2>
-																		<h6>Cisco IOS, BGP, c3600 and c3700 platforms</h6>
+															<a href="#" class="image"><img src="images/bgptraffic.jpg" alt="" /></a>
+															<div class="inner">
+																<h2>BGP Traffic Behavior</h2>
+																		<h6>[Cisco IOS, BGP, c3600 and c3700 platforms]</h6>
 																		<p>Completed research assignments on BGP traffic behavior, laying down some important conclusions about how BGP behaves when tuned for different metric criterion. The project involved:</br>
 																				1. Simulated network environment consisting of 5+ Autonomous systems on Cisco platforms namely c3600 and c3700</br>
 																				2. Influencing inbound and outbound routes using metric tweaking involving Weight, Local Preference, AS Path, MED</br>
 																				3. Manipulating routes to a specific ISP and configuring fail-over routes to secondary ISP. Analysis of performance based on time.</p>
-					</div>
-				</article>
-										<article>
-											<a href="https://github.com/gautamgitspace/Amazon-Dynamo" class="image"><img src="images/amzdynamodb.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>Simple Amazon DynamoDB</h2>
-                                                <h6>Android, Java, Socket Programming, SQLite, DynamoDB</h6>
-												<p>Implemented a simplified version of Amazon DynamoDB in Java, using 5 Android Virtual Devices acting as nodes. The design mimics the
-													highly available and scalable distributed data store built for Amazon’s platform and takes care of:<br><br>
-													1. Partitioning & Replication –Consistent Hashing to distribute load across multiple hosts and Chain Replication with a degree of 2<br>
-													2. Node Failures - Consistent retrieval in case of node failures<br>
-													3. Replica Synchronization and Conflict Detection and Resolution - Object versioning using Mutex and Semaphores</p>
-											</div>
-										</article>
+														</div>
+														</article>
 
-										<article>
-											<a href="https://github.com/gautamgitspace/Distributed-Hash-Table" class="image"><img src="images/dht.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>Distributed Hash Table</h2>
-                                                <h6>Android, Java, Socket Programming, SQLite, Chord DHT</h6>
-												<p>A simple DHT based on the Chord algorithm in Java, using 5 Android Virtual Devices acting as nodes. The model is an efficient Distributed Data Storage system that offers fast lookup times and is capable of handling ID space portioning/re-partitioning, Ring based routing and joining of new nodes to the networked system.</p>
-											</div>
-										</article>
-																				<article>
-											<a href="#" class="image"><img src="images/inspectocat.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>ExactAgent - The Mainframe Screen Scraping Application</h2>
-												<h6>Cobol, VB.Net, SQL, Shell, Python</h6>
-												<p>Developed and shaped a Mainframe screen scraping application in VB .NET for AT&T's Wholesale Ordering and Billing Solutions. The application assisted in creating service orders for requests coming into the FLSC (Facilities Local Service Center) via an ASR (Access Service Request) by scraping data from The Mainframe screens at different coordinates.
-												</article>
-                                        <article>
-											<a href="https://github.com/gautamgitspace/Distributed-Message-and-File-Sharing-System" class="image"><img src="images/distributed.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>Distributed Message and File Sharing System</h2>
-                                                <h6>C, C++, UNIX Network Programming, GNU</h6>
-												<p>Designed a shell-based Multi-Client Chat Application and File Sharing System in C++, under GNU environment. The application works on top of the CS Department servers at the University at Buffalo. This application implements both Client-Server and P2P model and provides functionalities like: Client login logout and active tracking, message storage and delivery guarantee and blocking client access.</p>
-											</div>
-										</article>
-                                        <article>
-											<a href="https://www.dropbox.com/sh/xbccax6fedzdo4s/AAD1FR7J-ujmzO1VcSoj7EwSa?dl=0" class="image"><img src="images/crypto.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>Post-Quantum Primitives for Constrained Devices</h2>
-                                                <h6>Python, C, C++, Raspberry Pi</h6>
-												<p>Performed a comparative study of Lattice-based cryptographic algorithms and evaluated their performance by testing them on constrained device environment (Raspberry Pi B+). Programmed the following algorithms in Python and C: LP, U-LP, BLISS and NTRU.
-										</article>
-                                        <article>
-											<a href="https://github.com/gautamgitspace/Reliable-Data-Transfer-Protocol-" class="image"><img src="images/tcp.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>Reliable Transport Protocol </h2>
-                                                <h6>C, C++, GNU</h6>
-												<p>Programmed a protocol at L4 of OSI for reliable delivery. The protocol picks the best features from Go-Back-N and Selective Repeat protocols, an efficient multiple-timer strategy and a comparison of the 3 protocols in terms of packet delivery, loss and corruption.</p>
-											</div>
-										</article>
                                           <article>
-											<a href="http://mediahackerz.azurewebsites.net/IR/FinalProject/start.html" class="image"><img src="images/twitter.jpg" alt="" /></a>
+											<a href="https://github.com/gautamgitspace/Multilingual-Tweet-Search-Engine" class="image"><img src="images/twitter.jpg" alt="" /></a>
 											<div class="inner">
 												<h2>Social Media Indexer and Boolean Query Retrieval System</h2>
-                                                <h6>Java, Json, HTML, Solr, XML, Apache</h6>
+                                                <h6>[Java, Json, Jquery HTML, Apache Solr, XML, Apache]</h6>
 												<p>Designed and developed a complete search-based solution in Java for parsing and indexing of a corpus of multilingual Tweets (English, German, French and Russian) through cross-lingual queries. The model implements Faceted Search, Content Tagging and provisions language detection at run time and index time.</p>
 											</div>
 										</article>
@@ -238,7 +245,7 @@ debugging the controller (in C and Python) and data path of OVS.
 											<a href="#" class="image"><img src="images/free.jpg" alt="" /></a>
 											<div class="inner">
 												<h2>Free wireless IP Telephony</h2>
-                                                <h6>Cisco IOS, GNS, VoIP</h6>
+                                                <h6>[Cisco IOS, GNS, VoIP, SCCP, SIP]</h6>
 												<p>A model that is capable of offering free wireless telephony between two closely spaced university departments. The model is based on a call manger which is setup virtually using a network simulator on a server. For better voice reception, QoS was implemented on the model making it much more scalable.</p>
 											</div>
 										</article>
@@ -246,7 +253,7 @@ debugging the controller (in C and Python) and data path of OVS.
 											<a href="https://github.com/gautamgitspace/Geo-Tracker" class="image"><img src="images/geotracker.jpg" alt="" /></a>
 											<div class="inner">
 												<h2>Geo Tracker</h2>
-															<h5>Android, Java, SQLite, Python</h5>
+															<h5>[Android, Java, SQLite, Python]</h5>
 																		<p>An android based application that lets you track your current location based on GPS or Network Provider and exports Geo Data to a CSV.</p>
 											</div>
 										</article>
@@ -254,7 +261,7 @@ debugging the controller (in C and Python) and data path of OVS.
 											<a href="https://github.com/gautamgitspace/Group-Messenger" class="image"><img src="images/pythocat.jpg" alt="" /></a>
 											<div class="inner">
 												<h2>Android Group Messenger with Total and FIFO ordering</h2>
-                                                <h6>Android, Java, SQLite, ISIS</h6>
+                                                <h6>[Android, Java, SQLite, ISIS]</h6>
 												<p>A group messenger that guarantees in order message delivery by implementing the ISIS algorithm.</p>
 											</div>
 										</article>
@@ -281,6 +288,10 @@ debugging the controller (in C and Python) and data path of OVS.
 																				<li><a href="http://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-data-center.html" class="image"><img src="images/ccna_DC.jpg" alt="" /></a>
                                         <h5>Cisco Certified Network Associate - Data Center</h5>
                                         </li>
+																				<li><a href="http://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-data-center.html" class="image"><img src="images/ccnp_datacenter_large.jpg" alt="" /></a>
+                                        <h5>Cisco Certified Network Professional - Data Center</h5>
+                                        </li>
+
 																				<li><a href="https://certification.comptia.org/certifications/security" class="image"><img src="images/comptia.jpg" alt="" /></a>
                                         <h5>CompTIA Security+</h5>
                                         </li>
@@ -310,7 +321,7 @@ debugging the controller (in C and Python) and data path of OVS.
                                         <li class="fa-server">Advanced BGP, OSPF, EIGRP config and troubleshoot</li>
                                         <li class="fa-server">VTP, STP, GLBP, HSRP, VRRP config and troubleshoot</li>
                                         <li class="fa-terminal">Cisco IOS</li>
-                                        <li class="fa-gears">Xcode, Android Studio, Eclipse, Intelli J, Matlab, GNS3, Wireshark, MS Visual Studio, Dreamweaver, Microsoft Visio, Windows Active Directory</li>
+                                        <li class="fa-gears">Xcode, Android Studio, Intelli J, Matlab, GNS3, Wireshark, Microsoft Visio</li>
                                         <li class="fa-sitemap">SDN, Openflow, Open vSwitch</li>
 																				<li class="fa-server">Data Center Technologies - FabricPath, vPCs, FEX, LACP, FHRPs</li>
 																				<li class="fa-steam">Game</li>
