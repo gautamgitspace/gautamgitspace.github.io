@@ -1,1 +1,2 @@
-Personal Website http://www.acsu.buffalo.edu/~agautam2/
+Personal Website http://gautamgitsoace.github.io
+Personal Blog http://gautamgitspace.github.io/gistblog/gautamblogspace.html
