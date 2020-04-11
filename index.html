@@ -1,335 +1,54 @@
 <!DOCTYPE HTML>
 <!--
-	Read Only by HTML5 UP
+	Aerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>gautamwebspace</title>
+		<title>Aerial by HTML5 UP</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/IMG_7168.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Abhishek Gautam</a></h1>
-                    <p>Mountain View, CA</p>
-				</header>
-				<nav id="nav">
-					<ul>
-				        <li><a href="#one" class="active">Howdy!</a></li>
-                        <li><a href="#two">Alma Mater and Professional Work</a></li>
-				        <li><a href="#three">A Few Accomplishments</a></li>
-                        <li><a href="#four">Dexterity</a></li>
-				        <li><a href="#five">Ping</a></li>
-				        <li><a href="gistblog/gautamblogspace.html">Blog</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-                        <li><a href="https://github.com/gautamgitspace" class="icon fa-github"><span class="label">Github</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/gautammm" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-                        <li><a href="https://www.instagram.com/abhishekgautam/" class="icon fa-instagram"><span class="label">Instagram</span></a>
-                        <li><a href="https://www.strava.com/athletes/30550656" class="icon fa-bicycle"><span class="label">Strava</span></a>
-                        <li><a href="https://connect.garmin.com/modern/profile/0342d30b-a368-48fc-bdd9-bf9894d44381" class="icon fa-map"><span class="label">Garmin Connect</span></a>    
-                        <li><a href="https://www.flickr.com/photos/141665004@N02/" class="icon fa-flickr"><span class="label">Flickr</span></a></li>  </a></li>
-				        <li><a href="mailto:agautam2@buffalo.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- One -->
-							<section id="one">
-								<div class="container">
-									<header class="major">
-                                        <h2>Howdy!</h2>
-									</header>
-									<p>I am a Distributed Systems & Computer Networking enthusiast currently working as a Network Software Engineer at Cisco Systems in the sunny state of California.    
-                                    I graduated from the State University of New York at Buffalo in December 2016 (I miss snow).
-									</br>
-                                    <br>
-                                    A true wanderer from the land of the Himalayas, I like spending time with mountains and water bodies. I serve the needs of my camera shutter at least once in a week. I play (PG) and watch basketball in free time. I do not support the Warriors. I'm a Celtic for life ☘️
-                                    <br></br>
-                                    If you really wanna ask me something, ask me how a router works.
-								</p>
-								</div>
-							</section>
-
-						<!-- Two -->
-                            <section id="two">
-                                <div class="container">
-                                    <header class="major">
-                                        <h3>Alma Mater</h3>
-                                    </header>
-                                    <div class="features">
-										<article>
-											<a href="http://www.cse.buffalo.edu" class="image"><img src="images/UB.jpg" alt="" /></a>
-											<div class="inner">
-												<h3>Master of Science, Computer Science and Engineering</h3>
-                                                <h5>2015-2017</h5>
-                                                <h5>Major Concentration – Distributed and Networked Systems</br>
-                                                Graduate Certificate - Information Assurance
-                              		            </h5>
-												</br></br>
-											</div>
-										</article>
-                                    <article>
-                                    <div class="container">
-                                        <header class="major">
-
-									<ul class="feature-icons">
-                                        <h3>Professional Work</h3>
-                                        <br></br>
-                                        <li class="image"><img src="images/UB2.jpg" alt="" /><br>
-                                        Worked towards analyzing Crowd Sourced Cellular Network Performance and
-								        towards re-setting up a testbed related to SDN/VPN based research project in collaboration with AT&T Labs.
-                                        </li>
-                                        <li class="image"><img src="images/cisco_logo.jpg" alt="" /> </br>
-                                        Deciding a packet's fate when it enters the FIB by tinkering with the Platform Forwarding Software for Cisco's IOS-XR routing and switching platforms.
-									</ul>
-								    </div>
-                                    </article>
-
-									</div>
-                                </div>
-                            </section>
-                        <!-- Three -->
-                            <section id="three">
-								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>A few of my favorite projects during the course of my career.</p>
-									<div class="features">
-                                        <article>
-											<a href="https://github.com/gautamgitspace/CellularNetworkMonitor" class="image"><img src="images/celnetmon.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>Cellular Network Monitor</h2>
-                                                <h5>[Java, Google Protocol Buffers, Cellular Networks, Android, Python, Django, MongoDB, SQLite]</h5>
-												<p>An Android application that lets you track various cellular network parameters as you move around. Pulls data from your phone, serializes using Google Protocol Buffers and sends it over the network to a Django based server. The data is processed and can be viewed by the user in geo-map and statistical UI.<br><br>
-												</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://github.com/gautamgitspace/Software-Defined-Routing" class="image"><img src="images/sdn.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>Software Defined Routing and DVRP Implementation</h2>
-													<h5>[C, C++, Python, TCP/UDP Socket Programming, GNU]</h5>
-													<p>A model that mimics the SDN design, separating the control plane and the data plane of the router. Includes a router written in C/C++ and a Controller scripted in Python. Provisions distance vector routing updates and file sharing orchestrated by the controller using the best possible route.<br><br>
-												    </p>
-													</div>
-								        </article>
-                                        <article>
-											     <a href="https://github.com/gautamgitspace/Sweet-Spot-Spotify" class="image"><img src="images/inspectocat_spot.jpg" alt="" /></a>
-											     <div class="inner">
-												    <h2>Sweet Spot Spotify</h2>
-                                                    <h5>[Spotify API, AppleScript, macOS]</h5>
-												    <p>For all the terminal geeks, an AppleScript based tool that uses Spotify API to control Spotify music right from CLI! Cause hitting multimedia keys on the keyboard is too mainstream.</p>
-											     </div>
-								        </article>
-								        <article>
-												<a href="https://github.com/gautamgitspace/Amazon-Dynamo" class="image"><img src="images/amzdynamodb.jpg" alt="" /></a>
-												<div class="inner">
-												    <h2>Amazon DynamoDB Replica</h2>
-		                                              <h5>[Android, Java, Socket Programming, SQLite, DynamoDB]</h5>
-												        <p>A simplified version of Amazon DynamoDB in Java, using 5 Android Phones acting as stroage nodes. The design mimics the highly available and scalable distributed data store built for Amazon’s platform.</p>
-												</div>
-												</article>
-								        <article>
-												<a href="#" class="image"><img src="images/cloud.jpg" alt="" /></a>
-												<div class="inner">
-												    <h2>CE to CE MPLS L3 VPNs and LDP Packet Analysis</h2>
-												        <h5>[MPLS, MBGP, OSPF, Cisco ISR 2800, 2900, GNS3, Cisco EPC]</h5>
-												            <p>Analysis of MPLS packets on a simulated network environment consisting of CE-CE seamless MPLS routing on Cisco ISR platforms and capturing packets using Cisco Embedded Packet Capture<br><br>
-								                            </p>
-												</div>
-								        </article>
-                                        <article>
-												<a href="#" class="image"><img src="images/inspectocat.jpg" alt="" /></a>
-												<div class="inner">
-												    <h2>ExactAgent - The Mainframe Screen Scraping Application</h2>
-												        <h6>[Cobol, VB.Net, SQL, Shell, Python]</h6>
-                                                    <p>Developed and shaped a Mainframe screen scraping application in VB .NET for AT&T's Wholesale Ordering and Billing Solutions. The application assisted in creating service orders for requests coming into the FLSC (Facilities Local Service Center) via an ASR (Access Service Request) by scraping data from The Mainframe screens at different coordinates.
-                                                    </p>
-                                                </div>
-								        </article>
-                                        <article>
-                                                <a href="https://github.com/gautamgitspace/Post-Quantum-Security-Algorithms/blob/master/PostQuantumPrimitives.pdf" class="image"><img src="images/crypto.jpg" alt="" /></a>
-								                <div class="inner">
-												    <h2>Post-Quantum Primitives for Constrained Devices</h2>
-												        <h6>[Python, C, C++, Raspberry Pi]</h6>
-												            <p>Performed a comparative study of Lattice-based cryptographic algorithms and evaluated their performance by testing them on constrained device environment (Raspberry Pi B+). Programmed the following algorithms in Python and C: LP, U-LP, BLISS and NTRU.
-                                                            </p>
-                                                </div>
-								        </article>
-								        <article>
-												<a href="https://github.com/gautamgitspace/Reliable-Data-Transfer-Protocol-" class="image"><img src="images/tcp.jpg" alt="" /></a>
-												<div class="inner">
-												    <h2>Reliable Transport Protocol </h2>
-												        <h6>[C, C++, GNU]</h6>
-												            <p>Programmed a protocol at L4 of OSI for reliable delivery. The protocol picks the best features from Go-Back-N and Selective Repeat protocols, an efficient multiple-timer strategy and a comparison of the 3 protocols in terms of packet delivery, loss and corruption.
-                                                            </p>
-												</div>
-								        </article>
-								        <article>
-												<a href="https://github.com/gautamgitspace/Distributed-Message-and-File-Sharing-System" class="image"><img src="images/distributed.jpg" alt="" /></a>
-												<div class="inner">
-												    <h2>Distributed Message and File Sharing System</h2>
-												        <h6>[C, C++, UNIX Network Programming, GNU]</h6>
-																<p>A CLI-based Multi-Client Chat Application and File Sharing System in C++, under GNU environment. The application works on top of the CS Department servers at the University at Buffalo. This application implements both Client-Server and P2P model and provides functionalities like: Client login logout and active tracking, message storage and delivery guarantee and blocking client access.
-                                                                </p>
-												</div>
-								        </article>
-								        <article>
-												<a href="https://github.com/gautamgitspace/Distributed-Hash-Table" class="image"><img src="images/dht.jpg" alt="" /></a>
-												<div class="inner">
-												    <h2>Distributed Hash Table</h2>
-		                                                <h6>[Android, Java, Socket Programming, SQLite, Chord DHT]</h6>
-                                                            <p>A simple DHT based on the Chord algorithm in Java, using 5 Android Phones acting as nodes. The model is an efficient Distributed Data Storage system that offers fast lookup times and is capable of handling ID space portioning/re-partitioning, Ring based routing and joining of new nodes to the networked system.
-                                                            </p>
-								                </div>
-								        </article>
-								        <article>
-								                <a href="#" class="image"><img src="images/gitsharing.jpg" alt="" /></a>
-								                <div class="inner">
-								                    <h2>L3 High Availability Data Center Model</h2>
-												        <h5>[Cisco NX2k, NX5k, NX7k, FabricPath, vPCs, FEX, LACP, FHRPs]</h5>
-																<p>Designed a highly redundant Data Center design comprising of Spine, Fabric and Classical Ethernet domains capable of load balancing using ECMP on Cisco Nexus Platforms (NX2k as TOR and NX5k as EOR and NX7k as Spine Switches)
-                                                                </p>
-												</div>
-								        </article>
-								        <article>
-												<a href="#" class="image"><img src="images/bgptraffic.jpg" alt="" /></a>
-												<div class="inner">
-												    <h2>BGP Traffic Behavior</h2>
-												        <h6>[Cisco IOS, BGP, c3600 and c3700 platforms]</h6>
-																<p>Completed research assignments on BGP traffic behavior, laying down some important conclusions about how BGP behaves when tuned for different metric criterion.
-                                                                </p>
-												</div>
-								        </article>
-                                        <article>
-											<a href="https://github.com/gautamgitspace/Multilingual-Tweet-Search-Engine" class="image"><img src="images/twitter.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>Multilingual Tweet Search Engine</h2>
-                                                <h6>[Java, Json, Jquery HTML, Apache Solr, XML, Apache]</h6>
-												<p>A complete search-based solution in Java for parsing and indexing of a corpus of multilingual Tweets (English, German, French and Russian) through cross-lingual queries. The model implements Faceted Search, Content Tagging and provisions language detection at run time and index time.</p>
-											</div>
-										</article>
-                                        <article>
-											<a href="#" class="image"><img src="images/free.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>Free wireless IP Telephony</h2>
-                                                <h6>[Cisco IOS, GNS, VoIP, SCCP, SIP]</h6>
-												<p>A model that is capable of offering free wireless telephony between two closely spaced university departments. The model is based on a call manger which is setup virtually using a network simulator on a server. For better voice reception, QoS was implemented on the model making it much more scalable.</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://github.com/gautamgitspace/Geo-Tracker" class="image"><img src="images/geotracker.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>Geo Tracker</h2>
-												<h5>[Android, Java, SQLite, Python]</h5>
-												<p>Android application that tells you where you are and where did you go in the past days</p>
-											</div>
-										</article>
-                                        <article>
-											<a href="https://github.com/gautamgitspace/Group-Messenger" class="image"><img src="images/pythocat.jpg" alt="" /></a>
-											<div class="inner">
-												<h2>Android Group Messenger with Total and FIFO ordering</h2>
-                                                <h6>[Android, Java, SQLite, ISIS]</h6>
-												<p>A group messenger that guarantees in order message delivery by implementing the ISIS algorithm.</p>
-											</div>
-										</article>
-                                        <article>
-                                            <div class="container">
-
-									<ul class="feature-icons">
-								        <h4>Certifications</h4>
-                                        <li><a href="https://www.youracclaim.com/badges/87ad78d5-b0a4-49ce-a0d9-65f7d56be031" class="image"><img src="images/ccnar&s.jpg" alt="" /></a>
-								        <h5>Cisco Certified Network Associate</h5>
-                                        License – 407764170287FQYL
-                                        </li>
-                                        <li><a href="https://www.youracclaim.com/badges/2b0b55d9-6d4a-4e66-8901-06d92066620b" class="image"><img src="images/ccnpr&s.jpg" alt="" /></a>
-                                        <h5>Cisco Certified Network Professional</h5>
-                                        License – 421344169061IRXN
-                                        </li>
-									</div>
-								</div>
-							</section>
-
-                        <!-- Four -->
-
-							<section id="four">
-								<div class="container">
-									<h3>Things I Do</h3>
-									<p>Things that I love to do and I can bring to the table</p>
-									<ul class="feature-icons">
-								        <li class="fa-file-code-o">Write code in C/C++, Java, Python and Go</li>
-                                        <li class="fa-code">Scripting: Python, Shell</li>
-								        <li class="fa-android">Android Kernel and App Development</li>
-                                        <li class="fa-cubes">Operating Systems, Distributed Networked Systems</li>
-                                        <li class="fa-linux">UNIX, GNU, GDB</li>
-								        <li class="fa-database">MySQL, Microsoft SQL Server, SQLite</li>
-                                        <li class="fa-server">BGP, OSPF, MPLS, MPBGP, BGP-LU, MPLS-TE, RSVP-TE, BGP SR-TE, L3VPN, 6PE, 6VPE, Cisco IOS-XR</li>
-                                        <li class="fa-gears">Xcode, Android Studio, GNS3, Vim, Emacs, Cscope, GDB</li>
-                                        <li class="fa-sitemap">SDN, Openflow, Open vSwitch</li>
-								        <li class="fa-steam">Game</li>
-									</ul>
-								</div>
-							</section>
-
-
-						<!-- Five -->
-							<section id="five">
-								<div class="container">
-									<h3>Ping</h3>
-									<p>Share an idea or just say hello.</p>
-										<ul class="icons">
-                        <li><a href="https://github.com/gautamgitspace" class="icon fa-github"><span class="label">Github</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/gautammm" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-                        <li><a href="https://www.instagram.com/abhishekgautam/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="https://www.strava.com/athletes/30550656" class="icon fa-bicycle"><span class="label">Strava</span></a></li>
-                        <li><a href="https://connect.garmin.com/modern/profile/0342d30b-a368-48fc-bdd9-bf9894d44381" class="icon fa-map"><span class="label">Garmin Connect</span></a></li>
-                        <li><a href="https://www.flickr.com/photos/141665004@N02/" class="icon fa-flickr"><span class="label">Flickr</span></a></li>  <li><a href="mailto:agautam2@buffalo.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-                                    <ul class="actions"
-						</ul>
-
-								</div>
-							</section>
-
-					</div>
+				<!-- Header -->
+					<header id="header">
+						<h1>Abhishek Gautam</h1>
+						<p>Networked Systems Engineer &nbsp;&bull;&nbsp; True Celtic ☘️ &nbsp;&bull;&nbsp;  Computing Enthusiast &nbsp;&bull;&nbsp; Overwatch.ftw </p>
+						<nav>
+							<ul>
+                                <li><a href="https://github.com/gautamgitspace" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                                
+                                <li><a href="https://www.linkedin.com/in/gautammm" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a>
+                                
+								<li><a href="https://twitter.com/gautamabhishek_" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                                                               
+                                <li><a href="https://www.twitch.tv/mcmxcfg" class="icon brands fa-twitch"><span class="label">Watch me play live!</span></a></li>
+                                
+                                <li><a href="mailto:agautam2@buffalo.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+ 
+							</ul>
+						</nav>
+					</header>
 
 				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>Octocat images - All rights reserved with <a href="https://github.com/home">GitHub, Inc.</a><br>
-                                All other logos and icons - rights reserved with with their respective owners</li>
-							</ul>
-						</div>
-					</section>
+					<footer id="footer">
+<!--						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>-->
+					</footer>
 
 			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
